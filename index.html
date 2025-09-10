@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHD Resources - GoGent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>GoGent ADHD Resources</h1>
+                <div class="nav-buttons">
+                    <button id="home-btn" class="nav-btn">Home</button>
+                    <button id="asrs-test-btn" class="nav-btn primary">Take ASRS Test</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h2>Comprehensive ADHD Resources and Support</h2>
+                <p>Find expert guidance, assessments, and resources to better understand and manage ADHD.</p>
+                <div class="hero-buttons">
+                    <button id="home-main-btn" class="btn primary">Get Started</button>
+                    <button id="asrs-main-btn" class="btn secondary">Take ASRS Test</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="symptoms" class="symptoms-section">
+            <div class="container">
+                <h2>Common ADHD Symptoms</h2>
+                <div class="symptoms-grid">
+                    <div class="symptom-card">
+                        <h3>Inattentive Type</h3>
+                        <ul>
+                            <li>Difficulty sustaining attention</li>
+                            <li>Easily distracted</li>
+                            <li>Forgetfulness in daily activities</li>
+                            <li>Difficulty organizing tasks</li>
+                        </ul>
+                    </div>
+                    <div class="symptom-card">
+                        <h3>Hyperactive-Impulsive Type</h3>
+                        <ul>
+                            <li>Fidgeting or restlessness</li>
+                            <li>Difficulty sitting still</li>
+                            <li>Impulsive decision making</li>
+                            <li>Interrupting conversations</li>
+                        </ul>
+                    </div>
+                    <div class="symptom-card">
+                        <h3>Complex Type</h3>
+                        <ul>
+                            <li>Combined inattentive and hyperactive symptoms</li>
+                            <li>Emotional dysregulation</li>
+                            <li>Executive function challenges</li>
+                            <li>Rejection sensitive dysphoria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experts" class="experts-section">
+            <div class="container">
+                <h2>Expert Resources</h2>
+                <div class="experts-grid">
+                    <div class="expert-card">
+                        <h3>Dr. Russell Barkley</h3>
+                        <p>Renowned ADHD researcher and clinical psychologist with decades of expertise in ADHD diagnosis and treatment.</p>
+                        <a href="https://www.youtube.com/@russellbarkleyphd2023" target="_blank" class="expert-link">
+                            Visit YouTube Channel
+                        </a>
+                    </div>
+                    <div class="expert-card">
+                        <h3>Dr. Ned Hallowell</h3>
+                        <p>Psychiatrist and author specializing in ADHD, learning differences, and mental health. Co-author of "Driven to Distraction".</p>
+                        <div class="expert-link">
+                            Learn More About Dr. Hallowell
+                        </div>
+                    </div>
+                    <div class="expert-card">
+                        <h3>Dr. K (HealthyGamerGG)</h3>
+                        <p>Harvard-trained psychiatrist focusing on mental health for gamers and the digital generation, including ADHD awareness.</p>
+                        <a href="https://www.youtube.com/@HealthyGamerGG" target="_blank" class="expert-link">
+                            Visit YouTube Channel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="asrs-test" class="asrs-section">
+            <div class="container">
+                <h2>ADHD Self-Report Scale (ASRS)</h2>
+                <p>Take this screening tool to assess ADHD symptoms. This is not a diagnostic tool but can help guide conversations with healthcare providers.</p>
+                <div class="asrs-content">
+                    <div id="asrs-questions" class="asrs-questions">
+                        <!-- Questions will be dynamically loaded here -->
+                    </div>
+                    <button id="start-asrs" class="btn primary">Start ASRS Assessment</button>
+                    <div id="asrs-result" class="asrs-result" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GoGent ADHD Resources. This information is for educational purposes only and is not a substitute for professional medical advice.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
